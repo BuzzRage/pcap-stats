@@ -43,5 +43,7 @@ for pkt in capture:
 print(str(len(rtt_list)) + " RTT values calculated.")
 
 plt.hist(rtt_list)
+plt.xlabel("RTT in ms")
+plt.ylabel("Occurrence")
 plt.show()
 
